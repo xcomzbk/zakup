@@ -1,0 +1,160 @@
+/* line 18, ../sass/_grids.scss */
+.container {
+  max-width: 1040px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* line 12, ../../../Programs/Ruby23/lib/ruby/gems/2.3.0/gems/susy-2.2.12/sass/susy/output/support/_clearfix.scss */
+.container:after {
+  content: " ";
+  display: block;
+  clear: both;
+}
+/* line 21, ../sass/_grids.scss */
+.container .col-3 {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+}
+/* line 22, ../sass/_grids.scss */
+.container .col-1-2_fl {
+  width: 50%;
+  float: right;
+  margin-right: 0;
+  float: left;
+}
+@media all and (max-width: 475px) {
+  /* line 22, ../sass/_grids.scss */
+  .container .col-1-2_fl {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+/* line 28, ../sass/_grids.scss */
+.container .col-1-2 {
+  width: 50%;
+  float: right;
+  margin-right: 0;
+}
+@media all and (max-width: 475px) {
+  /* line 28, ../sass/_grids.scss */
+  .container .col-1-2 {
+    width: 100%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+}
+/* line 35, ../sass/_grids.scss */
+.container .col-9 {
+  width: 74.57627%;
+  float: right;
+  margin-right: 0;
+}
+/* line 37, ../sass/_grids.scss */
+.container .present:first-child {
+  margin-left: 12.71186%;
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media all and (max-width: 768px) and (min-width: 321px) {
+  /* line 37, ../sass/_grids.scss */
+  .container .present:first-child {
+    margin-left: 0%;
+    width: 83.05085%;
+    float: left;
+    margin-right: 1.69492%;
+    margin: 0 1.69492%;
+  }
+}
+@media all and (max-width: 320px) {
+  /* line 37, ../sass/_grids.scss */
+  .container .present:first-child {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* line 49, ../sass/_grids.scss */
+.container .present {
+  width: 23.72881%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media all and (max-width: 768px) and (min-width: 321px) {
+  /* line 49, ../sass/_grids.scss */
+  .container .present {
+    margin-left: 0%;
+    width: 83.05085%;
+    float: left;
+    margin-right: 1.69492%;
+    margin: 0 1.69492%;
+  }
+}
+@media all and (max-width: 320px) {
+  /* line 49, ../sass/_grids.scss */
+  .container .present {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+/* line 60, ../sass/_grids.scss */
+.container .min_info {
+  width: 15.25424%;
+  float: left;
+  margin-right: 1.69492%;
+}
+/* line 62, ../sass/_grids.scss */
+.container .min_info:nth-child(6n) {
+  width: 15.25424%;
+  float: right;
+  margin-right: 0;
+}
+@media all and (max-width: 768px) and (min-width: 321px) {
+  /* line 60, ../sass/_grids.scss */
+  .container .min_info {
+    width: 32.20339%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  /* line 65, ../sass/_grids.scss */
+  .container .min_info:nth-child(3n) {
+    width: 32.20339%;
+    float: right;
+    margin-right: 0;
+  }
+}
+@media all and (max-width: 320px) {
+  /* line 60, ../sass/_grids.scss */
+  .container .min_info {
+    width: 49.15254%;
+    float: left;
+    margin-right: 1.69492%;
+  }
+  /* line 69, ../sass/_grids.scss */
+  .container .min_info:nth-child(2n) {
+    width: 49.15254%;
+    float: right;
+    margin-right: 0;
+  }
+}
+/* line 72, ../sass/_grids.scss */
+.container .begin {
+  margin-left: 12.71186%;
+  width: 74.57627%;
+  float: left;
+  margin-right: 1.69492%;
+}
+@media all and (max-width: 475px) {
+  /* line 72, ../sass/_grids.scss */
+  .container .begin {
+    width: 100%;
+    float: left;
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

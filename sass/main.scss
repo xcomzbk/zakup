@@ -1,0 +1,52 @@
+/* Welcome to Compass.
+ * In this file you should write your main styles. (or centralize your imports)
+ * Import this file using the following HTML or equivalent:
+ * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
+
+@import "compass/reset";
+
+$main_color: #412b3a;
+$tpl_color1: #cd666a;
+$tpl_color1_05: rgba(205, 102, 106, 0.5);
+$tpl_color2: #ddd2cc;
+$tpl_color3: #f8faf9;
+$hover_color: #d63e44;
+
+
+html{overflow-x: hidden;}
+a{text-decoration: none;
+	&:hover{color: $hover_color;
+		i {color: $hover_color;}
+	}
+}
+*:focus{outline: none;}
+p {line-height:24px;@media all and (max-width: 475px){line-height:20px;}}
+ul,li{line-height: 20px;}
+* {font-family: 'OpenSansRegular', sans-serif;color:$main_color;}
+
+.w100{width: 100%;background-color: $tpl_color1;}
+
+.mar-t150{margin-top: 150px;}
+.mar-t50_10-475{margin-top: 50px;@media all and (max-width:475px){margin-top:10px;}}
+h2 {
+	text-align: center;
+	font-size: 24px;
+	text-transform: uppercase;
+	padding: 20px;
+	@media all and (max-width: 475px) {
+		font-size: 20px;
+		padding: 10px;
+	}
+}
+.txt-cnt {text-align: center;}
+.txt-jstf {text-align: justify;}
+.font18 {font-size:18px;}
+.font24 {font-size:24px;}
+.font36 {font-size:36px;}
+.font62 {font-size:62px;}
+.-u {text-transform: uppercase;}
+.-b {font-weight: bold;}
+
+
+ul {list-style: disc inside;margin: 0 40px;}
+li span {margin-left: -20px;}

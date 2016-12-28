@@ -1,0 +1,79 @@
+@import "susy";
+
+$susy: (
+  columns: 12,
+  gutters: 1/4,
+  output: float,
+  flow: ltr,
+  gutter-position: after,
+  container: 1040px,
+  //  debug: (
+  //   image: show,
+  //   color: rgba(#66f, .25),
+  //   output: background,
+  //   toggle: top right,
+  // ),
+);
+
+.container {
+  @include container();
+  
+  .col-3 {@include span(3);}
+  .col-1-2_fl {
+    @include span(last 50%);float:left;
+    @media all and (max-width: 475px) {
+      @include span(100%);
+    }
+  }
+  .col-1-2 {
+    @include span(last 50%);
+    @media all and (max-width: 475px) {
+      @include span(100%);
+    }
+  }
+
+  .col-9 {@include span(last 9);}
+
+  .present:first-child {
+    @include push(1.5);
+    @include span(3);
+    @media all and (max-width: 768px) and (min-width: 321px) {
+      @include push(0);
+      @include span(10);
+      margin: 0 1.69492%;;
+    }
+    @media all and (max-width: 320px) {
+      @include span(12);
+    }
+  }
+  .present{
+    @include span(3);
+    @media all and (max-width: 768px) and (min-width: 321px) {
+      @include push(0);
+      @include span(10);
+      margin: 0 1.69492%;;
+    }
+    @media all and (max-width: 320px) {
+      @include span(12);
+    }
+  }
+  .min_info {
+    @include span(2);
+    &:nth-child(6n) {@include span(last 2);}
+    @media all and (max-width: 768px) and (min-width: 321px) { 
+      @include span(4);
+      &:nth-child(3n) {@include span(last 4);}
+    }
+    @media all and (max-width: 320px) {
+      @include span(6);
+      &:nth-child(2n) {@include span(last 6);}
+    }
+  }
+  .begin {
+    @include push(1.5);
+    @include span(9);
+    @media all and (max-width: 475px) {
+      @include span(12);
+    }
+  }
+}
