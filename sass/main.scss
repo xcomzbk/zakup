@@ -12,6 +12,7 @@ $tpl_color2: #ddd2cc;
 $tpl_color3: #f8faf9;
 $hover_color: #d63e44;
 
+.bg_1{background-color: $tpl_color1;}
 
 html{overflow-x: hidden;}
 a{text-decoration: none;
@@ -20,15 +21,24 @@ a{text-decoration: none;
 	}
 }
 *:focus{outline: none;}
-p {line-height:24px;@media all and (max-width: 475px){line-height:20px;}}
+p {line-height:24px;text-align-last: center;@media all and (max-width: 475px){line-height:20px;}}
 ul,li{line-height: 20px;}
 * {font-family: 'OpenSansRegular', sans-serif;color:$main_color;}
+hr{width:100%;border:1px solid $hover_color;}
+.w100{width: 100%;}
 
-.w100{width: 100%;background-color: $tpl_color1;}
-
+.mar-t20{margin-top: 20px;}
+.mar-t100{margin-top: 100px;}
+.mar-t130{margin-top: 130px;}
 .mar-t150{margin-top: 150px;}
 .mar-t50_10-475{margin-top: 50px;@media all and (max-width:475px){margin-top:10px;}}
+
+.pad-t50_10-475{padding-top: 50px;@media all and (max-width:475px){padding-top:10px;}}
+.pad-r10{padding-right: 10px;}
+.pad-t20{padding-top:20px;}
+
 h2 {
+	font-family: 'OpenSansSemiBoldItalic';
 	text-align: center;
 	font-size: 24px;
 	text-transform: uppercase;
@@ -42,11 +52,14 @@ h2 {
 .txt-jstf {text-align: justify;}
 .font18 {font-size:18px;}
 .font24 {font-size:24px;}
+.font32 {font-size:32px;}
 .font36 {font-size:36px;}
 .font62 {font-size:62px;}
 .-u {text-transform: uppercase;}
 .-b {font-weight: bold;}
+.lh24{line-height:24px;}
+.lh28{line-height:28px;}
 
 
-ul {list-style: disc inside;margin: 0 40px;}
+ul {list-style: disc inside;margin: 0 10px;text-align:left;}
 li span {margin-left: -20px;}

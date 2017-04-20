@@ -1,5 +1,17 @@
 $(document).ready(function() {
 
+// LINK WITHOUT SCROLL
+$('a.nav,.scroll').click(function(e){
+  e.preventDefault();
+  var ID_Scroll = $(this).attr('href');
+  var top_Scroll= $(ID_Scroll).offset();
+  $('html, body').animate({scrollTop: top_Scroll.top}, "slow");
+    //$('.navigation.open, .social.open').removeClass('open');
+});
+
+// FORM MASK PHONE NUMBER
+$('[name = phone]').mask("+7(999) 999-9999");
+
 function runSlider() {
 	if ($(window).width() < 769 && $(window).width() > 586) {
     	$('.slider_device').slick({
@@ -19,6 +31,9 @@ function runSlider() {
   	}
 }
 runSlider();
+
+
+
 
 // $('.slick-arrow , .present').hover(function() {
 // 	$('.present').css("opacity", "1");

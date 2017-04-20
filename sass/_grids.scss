@@ -18,7 +18,11 @@ $susy: (
 .container {
   @include container();
   
+  .col-2 {@include span(2);}
   .col-3 {@include span(3);}
+  .col-4 {@include span(4);}
+  .col-8_l {@include span(last 8);}
+  .col-9 {@include span(last 9);}
   .col-1-2_fl {
     @include span(last 50%);float:left;
     @media all and (max-width: 475px) {
@@ -32,7 +36,7 @@ $susy: (
     }
   }
 
-  .col-9 {@include span(last 9);}
+  
 
   .present:first-child {
     @include push(1.5);
@@ -69,11 +73,12 @@ $susy: (
       &:nth-child(2n) {@include span(last 6);}
     }
   }
-  .begin {
+  .begin, .slogan {
     @include push(1.5);
     @include span(9);
     @media all and (max-width: 475px) {
       @include span(12);
     }
   }
+
 }

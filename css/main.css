@@ -2,7 +2,7 @@
  * In this file you should write your main styles. (or centralize your imports)
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
-/* line 5, ../../../Programs/Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 5, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -24,178 +24,242 @@ time, mark, audio, video {
   vertical-align: baseline;
 }
 
-/* line 22, ../../../Programs/Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 22, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 html {
   line-height: 1;
 }
 
-/* line 24, ../../../Programs/Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 24, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 26, ../../../Programs/Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 26, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 table {
   border-collapse: collapse;
   border-spacing: 0;
 }
 
-/* line 28, ../../../Programs/Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 28, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 caption, th, td {
   text-align: left;
   font-weight: normal;
   vertical-align: middle;
 }
 
-/* line 30, ../../../Programs/Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 30, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q, blockquote {
   quotes: none;
 }
-/* line 103, ../../../Programs/Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 103, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 q:before, q:after, blockquote:before, blockquote:after {
   content: "";
   content: none;
 }
 
-/* line 32, ../../../Programs/Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 32, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 a img {
   border: none;
 }
 
-/* line 116, ../../../Programs/Ruby23/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+/* line 116, C:/Ruby23-x64/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
 
-/* line 16, ../sass/main.scss */
+/* line 15, ../sass/main.scss */
+.bg_1 {
+  background-color: #cd666a;
+}
+
+/* line 17, ../sass/main.scss */
 html {
   overflow-x: hidden;
 }
 
-/* line 17, ../sass/main.scss */
+/* line 18, ../sass/main.scss */
 a {
   text-decoration: none;
 }
-/* line 18, ../sass/main.scss */
+/* line 19, ../sass/main.scss */
 a:hover {
   color: #d63e44;
 }
-/* line 19, ../sass/main.scss */
+/* line 20, ../sass/main.scss */
 a:hover i {
   color: #d63e44;
 }
 
-/* line 22, ../sass/main.scss */
+/* line 23, ../sass/main.scss */
 *:focus {
   outline: none;
 }
 
-/* line 23, ../sass/main.scss */
+/* line 24, ../sass/main.scss */
 p {
   line-height: 24px;
+  text-align-last: center;
 }
 @media all and (max-width: 475px) {
-  /* line 23, ../sass/main.scss */
+  /* line 24, ../sass/main.scss */
   p {
     line-height: 20px;
   }
 }
 
-/* line 24, ../sass/main.scss */
+/* line 25, ../sass/main.scss */
 ul, li {
   line-height: 20px;
 }
 
-/* line 25, ../sass/main.scss */
+/* line 26, ../sass/main.scss */
 * {
   font-family: 'OpenSansRegular', sans-serif;
   color: #412b3a;
 }
 
 /* line 27, ../sass/main.scss */
-.w100 {
+hr {
   width: 100%;
-  background-color: #cd666a;
+  border: 1px solid #d63e44;
 }
 
-/* line 29, ../sass/main.scss */
+/* line 28, ../sass/main.scss */
+.w100 {
+  width: 100%;
+}
+
+/* line 30, ../sass/main.scss */
+.mar-t20 {
+  margin-top: 20px;
+}
+
+/* line 31, ../sass/main.scss */
+.mar-t100 {
+  margin-top: 100px;
+}
+
+/* line 32, ../sass/main.scss */
+.mar-t130 {
+  margin-top: 130px;
+}
+
+/* line 33, ../sass/main.scss */
 .mar-t150 {
   margin-top: 150px;
 }
 
-/* line 30, ../sass/main.scss */
+/* line 34, ../sass/main.scss */
 .mar-t50_10-475 {
   margin-top: 50px;
 }
 @media all and (max-width: 475px) {
-  /* line 30, ../sass/main.scss */
+  /* line 34, ../sass/main.scss */
   .mar-t50_10-475 {
     margin-top: 10px;
   }
 }
 
-/* line 31, ../sass/main.scss */
+/* line 36, ../sass/main.scss */
+.pad-t50_10-475 {
+  padding-top: 50px;
+}
+@media all and (max-width: 475px) {
+  /* line 36, ../sass/main.scss */
+  .pad-t50_10-475 {
+    padding-top: 10px;
+  }
+}
+
+/* line 37, ../sass/main.scss */
+.pad-r10 {
+  padding-right: 10px;
+}
+
+/* line 38, ../sass/main.scss */
+.pad-t20 {
+  padding-top: 20px;
+}
+
+/* line 40, ../sass/main.scss */
 h2 {
+  font-family: 'OpenSansSemiBoldItalic';
   text-align: center;
   font-size: 24px;
   text-transform: uppercase;
   padding: 20px;
 }
 @media all and (max-width: 475px) {
-  /* line 31, ../sass/main.scss */
+  /* line 40, ../sass/main.scss */
   h2 {
     font-size: 20px;
     padding: 10px;
   }
 }
 
-/* line 41, ../sass/main.scss */
+/* line 51, ../sass/main.scss */
 .txt-cnt {
   text-align: center;
 }
 
-/* line 42, ../sass/main.scss */
+/* line 52, ../sass/main.scss */
 .txt-jstf {
   text-align: justify;
 }
 
-/* line 43, ../sass/main.scss */
+/* line 53, ../sass/main.scss */
 .font18 {
   font-size: 18px;
 }
 
-/* line 44, ../sass/main.scss */
+/* line 54, ../sass/main.scss */
 .font24 {
   font-size: 24px;
 }
 
-/* line 45, ../sass/main.scss */
+/* line 55, ../sass/main.scss */
+.font32 {
+  font-size: 32px;
+}
+
+/* line 56, ../sass/main.scss */
 .font36 {
   font-size: 36px;
 }
 
-/* line 46, ../sass/main.scss */
+/* line 57, ../sass/main.scss */
 .font62 {
   font-size: 62px;
 }
 
-/* line 47, ../sass/main.scss */
+/* line 58, ../sass/main.scss */
 .-u {
   text-transform: uppercase;
 }
 
-/* line 48, ../sass/main.scss */
+/* line 59, ../sass/main.scss */
 .-b {
   font-weight: bold;
 }
 
-/* line 51, ../sass/main.scss */
-ul {
-  list-style: disc inside;
-  margin: 0 40px;
+/* line 60, ../sass/main.scss */
+.lh24 {
+  line-height: 24px;
 }
 
-/* line 52, ../sass/main.scss */
+/* line 61, ../sass/main.scss */
+.lh28 {
+  line-height: 28px;
+}
+
+/* line 64, ../sass/main.scss */
+ul {
+  list-style: disc inside;
+  margin: 0 10px;
+  text-align: left;
+}
+
+/* line 65, ../sass/main.scss */
 li span {
   margin-left: -20px;
 }
