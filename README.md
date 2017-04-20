@@ -1,7 +1,7 @@
 # dorroga24
 pre-final
 
-+ front-end
++ + front-end
 
 //need to pay from client
 - - mobile(menu)
